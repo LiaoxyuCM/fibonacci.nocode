@@ -72,6 +72,26 @@ SYNTAX:&nbsp;&nbsp;&nbsp;`arg_name`-`arg_datatype`=`arg_defaultvalue`
 
 WARNING: All parameters with default values must come after those without default values.
 
+## Operators
+
+| Meanings  | Syntax        |
+| --------- | ------------- |
+| a + b     | a-@plus-b     |
+| a - b     | a-@sub-b      |
+| a * b     | a-@multi-b    |
+| a / b     | a-@div-b      |
+| a % b     | a-@mod-b      |
+| a == b    | a-@equals-b   |
+| a &lt; b  | a-@lt-b       |
+| a &gt; b  | a-@gt-b       |
+| a &lt;= b | a-@lte-b      |
+| a &gt;= b | a-@gte-b      |
+| !a        | @not-a        |
+| a && b    | a-@and-b      |
+| a \|\| b  | a-@or-b       |
+| a xor b   | a-@xor-b       |
+
+
 ## More about Nocode+
 
 Coming soon...
