@@ -38,7 +38,7 @@ So you can:
 
 ## Define a variable
 
-SYNTAX:&sqrt;&sqrt;&sqrt;$`variable_name`=`variable_value`.nocode
+SYNTAX:&nbsp;&nbsp;&nbsp;$`variable_name`=`variable_value`.nocode
 
 like this:
 
@@ -56,7 +56,7 @@ $chat_record=[{"name"="Xiaoming","message"="Nice_to_meet_you"},{"name"="Xiaohong
 
 Function should be a folder.
 
-SYNTAX:&sqrt;&sqrt;&sqrt;function-`function_name`(`arg1_name`-`arg1_datatype`,`arg2_name`-`arg2_datatype`,`...`,`argN_name`-`argN_datatype`)
+SYNTAX:&nbsp;&nbsp;&nbsp;function-`function_name`(`arg1_name`-`arg1_datatype`,`arg2_name`-`arg2_datatype`,`...`,`argN_name`-`argN_datatype`)
 
 
 
@@ -68,7 +68,7 @@ like this:
 
 ### Set a default value of a argument
 
-SYNTAX:&sqrt;&sqrt;&sqrt;`arg_name`-`arg_datatype`=`arg_defaultvalue`
+SYNTAX:&nbsp;&nbsp;&nbsp;`arg_name`-`arg_datatype`=`arg_defaultvalue`
 
 WARNING: All parameters with default values must come after those without default values.
 
