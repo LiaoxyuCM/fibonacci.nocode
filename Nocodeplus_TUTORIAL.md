@@ -44,12 +44,12 @@ like this:
 
 FILETREE
 ```
-$his_favourite_geme='minecraft'.nocode
+$his_favourite_game='minecraft'.nocode
 $todays_Celsius_temperature=26.nocode
 $debug=true.nocode
 $shopping_list=['apple','banana'].nocode
 $styled_text={'text'='hello','color'='#ffff00'}.nocode
-$chat_record=[{"name"="Xiaoming","message"="Nice_to_meet_you"},{"name"="Xiaohong","message"="Nice_to_meet_you_too"}].nocode
+$chat_record=[{'name'='Xiaoming','message'='Nice_to_meet_you'},{'name'='Xiaohong','message'='Nice_to_meet_you_too'}].nocode
 ```
 
 ## Define a function
