@@ -79,6 +79,7 @@ WARNING: All parameters with default values must come after those without defaul
 | a + b     | a-@plus-b     |
 | a - b     | a-@sub-b      |
 | a * b     | a-@multi-b    |
+| a ** b    | a-@pow-b      |
 | a / b     | a-@div-b      |
 | a % b     | a-@mod-b      |
 | a == b    | a-@equals-b   |
@@ -89,7 +90,7 @@ WARNING: All parameters with default values must come after those without defaul
 | !a        | @not-a        |
 | a && b    | a-@and-b      |
 | a \|\| b  | a-@or-b       |
-| a xor b   | a-@xor-b       |
+| a xor b   | a-@xor-b      |
 
 
 ## More about Nocode+
