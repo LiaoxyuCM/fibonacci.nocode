@@ -111,7 +111,7 @@ print(pi)^b.nocode
 
 ## Comments
 
-Mo syntax, just write into a file.
+No syntax, just write into a file.
 
 YEAH, that is stilllllllllll no code, isn't it?
 
