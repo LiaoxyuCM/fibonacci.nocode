@@ -35,6 +35,7 @@ So you can:
 | \|        | &amp;sep;        |
 | &lt;      | &amp;lt;         |
 | &gt;      | &amp;gt;         |
+| &amp;     | &amp;amp;        |
 
 ## Define a variable
 
