@@ -62,7 +62,7 @@ SYNTAX:&nbsp;&nbsp;&nbsp;function-`function_name`(`arg1_name`-`arg1_datatype`,`a
 
 like this:
 ```
-[FOLDER] function-foo(text-str)
+function-foo(text-str)/
     print(text).nocode
 ```
 
@@ -120,6 +120,37 @@ YEAH, that is stilllllllllll no code, isn't it?
 Create a file, you can name it freely BUT the file extention cannot be ".nocode".
 
 do U understand?
+
+## Locate
+
+Only files \(Not folders\) can use "locate", transform file to a folder and remove ".nocode" if this file has used "locate"
+
+SYNTAX:
+
+- `...`#{`token1`}`...`#{`token2`}`...`#{`token3`}`...`
+- - `token1`
+- - - `your_code`
+- - `token2`
+- - - `your_code`
+- - `token3`
+- - - `your_code`
+
+### Example
+
+before:
+```
+return(fibonacci(i-@sub-1)-@plus-fibonacci(i-@sub-2)).nocode
+```
+
+after:
+```
+return(#{a}-@plus-#{b})/
+    a/
+        fibonacci(i-@sub-1).nocode
+    b/
+        fibonacci(i-@sub-2).nocode
+
+```
 
 ## More about Nocode+
 
