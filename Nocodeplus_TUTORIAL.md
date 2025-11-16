@@ -108,6 +108,19 @@ According to the alphabetical order of the tokens, the "sequential execution" fu
 $pi=3.14159265358979^a.nocode
 print(pi)^b.nocode
 ```
+
+## Comments
+
+Mo syntax, just write into a file.
+
+YEAH, that is stilllllllllll no code, isn't it?
+
+### Comment a folder
+
+Create a file, you can name it freely BUT the file extention cannot be ".nocode".
+
+do U understand?
+
 ## More about Nocode+
 
 Coming soon...
