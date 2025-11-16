@@ -92,7 +92,18 @@ WARNING: All parameters with default values must come after those without defaul
 | a \|\| b  | a-@or-b       |
 | a xor b   | a-@xor-b      |
 
+## Execution in order
 
+When there are many ~~lines of codes~~ filenames, they become difficult to order. So you can:
+
+SYNTAX:&nbsp;&nbsp;&nbsp;`your_code`^`token`.nocode
+
+According to the alphabetical order of the tokens, the "sequential execution" function can be implemented, like this:
+
+```
+$pi=3.14159265358979^a.nocode
+print(pi)^b.nocode
+```
 ## More about Nocode+
 
 Coming soon...
