@@ -72,6 +72,10 @@ SYNTAX:&nbsp;&nbsp;&nbsp;`arg_name`-`arg_datatype`=`arg_defaultvalue`
 
 WARNING: All parameters with default values must come after those without default values.
 
+### Comment a return type
+
+SYNTAX:&nbsp;&nbsp;&nbsp;function-`function_name`(`args`)=`function_returntype`
+
 ## Operators
 
 | Meanings  | Syntax        |
