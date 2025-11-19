@@ -31,7 +31,7 @@ So you can:
 | /         | &amp;ds;         |
 | :         | &amp;colon;      |
 | ?         | &amp;quem;       |
-| "         | &amp;dquom;      |
+| "         | &amp;quot;       |
 | \|        | &amp;sep;        |
 | &lt;      | &amp;lt;         |
 | &gt;      | &amp;gt;         |
